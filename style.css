@@ -3,15 +3,20 @@ body {
     background-color: #697c37;
     color: rgba(255, 255, 255, 0.5);
     line-height: 2;
-    margin: 20px;
+    margin: 30px;
 }
 
-h3 { 
+h1 { 
     color: white;
+
     }
 
 h5{
     color:gray;
+    text-transform:uppercase;
+    letter-spacing: .05rem;
+    font-weight: 400;
+    text-align:center;
     }
 
 .box{
@@ -19,14 +24,17 @@ h5{
     }
 .content-left{
     float:left;
-    padding: 20px;
+    padding: 50px;
+    font-size:17px;
     }
 .content-right{
     background-color:white;
     color:black;
     float:right;
-    padding: 130px;
-    
+    padding: 100px;
+    height: 700px;
+    margin-top:80px;
+    box-shadow: -30px 25px #617133;
     }
 
 .bttn{
@@ -42,7 +50,48 @@ h5{
     }
 
 a{
-    color:green;}
+    color:#c8d746;
+    transition: color 0.3s;
+    }
 
 a:hover{
-    color: #013220;}
+    color: #9eae3f;}
+
+
+
+.form-context1{
+    display:flex;
+    height:35px;
+    width:300px;
+    color: gray;
+    float: right;
+    }
+
+label {
+ display: inline-block;
+ margin-bottom: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.form {
+  padding: 15px;
+  width: 50%;
+}
+
+.form input {
+  width: 100%;
+}
+.form3:{
+    
+    height:35px;
+    width:300px;
+    color: gray;
+    float: right;
+    }
+
+.from3 input{
+    width:100%;
+    }
